@@ -1,0 +1,26 @@
+{
+  "name": "react-form-validation-checker",
+  "version": "1.0.0",
+  "description": "Library to validate the payload in react",
+  "main": "lib/index.js",
+  "types": "lib.index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MdMoin788/react-form-validation-checker.git"
+  },
+  "keywords": [],
+  "author": "MD MOIN <developermdmoin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MdMoin788/react-form-validation-checker.git/issues"
+  },
+  "homepage": "https://github.com/MdMoin788/react-form-validation-checker.git#readme",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "files": ["lib/**/*"]
+}
