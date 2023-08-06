@@ -1,8 +1,9 @@
-type DynamicPayload = Record<string, string | number | boolean | object | Array<any>>
+ export type formTypes = Record<string, string | number | boolean | object | Array<any>>
 
-export const validations = async (payload: DynamicPayload = {}  ) => {
 
-  for (const key in payload as DynamicPayload ) {
+export const validations = async (payload: formTypes = {}  ) => {
+
+  for (const key in payload as formTypes ) {
     if (!payload[key]) {
       return `The ( ${key} )  field is empty.`
     }
@@ -12,3 +13,7 @@ export const validations = async (payload: DynamicPayload = {}  ) => {
   }
   return true 
 }
+
+
+
+
