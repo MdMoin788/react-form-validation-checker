@@ -1,5 +1,6 @@
  export type formTypes = Record<string, string | number | boolean | object | Array<any>>
 
+ 
 
 export const validations = async (payload: formTypes = {}  ) => {
 
