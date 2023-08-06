@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/MdMoin788/react-form-validation-checker.git"
   },
-  "keywords": [],
+  "keywords": ["React-form-validation-chekcer","Input validation", "form validation"],
   "author": "MD MOIN <developermdmoin@gmail.com>",
   "license": "MIT",
   "bugs": {
